@@ -1,3 +1,6 @@
-@foreach ($cd1 as $user)
-<p>This is user {{ $user }}</p>
+
+
+@foreach ($raccolta as $user)
+<p>This is user {{ $user["poster"] }}</p>
 @endforeach
+
