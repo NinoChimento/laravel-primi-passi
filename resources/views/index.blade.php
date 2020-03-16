@@ -1,1 +1,3 @@
-{{$cd1[0]}}
+@foreach ($cd1 as $user)
+<p>This is user {{ $user }}</p>
+@endforeach
