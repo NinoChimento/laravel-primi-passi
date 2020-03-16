@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get("/indexCd","cdControl@cd")->name("indexCd");
+Route::get("/indexCd","showIndex@cd")->name("indexCd");
 Route::get('/', function () {
     return view('cds');
 });
